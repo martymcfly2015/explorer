@@ -15,9 +15,9 @@ module.exports = function(req, res) {
   else if (req.body.action=="hashrate") 
     getHashrate(res);
   
-  else if (req.body.action=="etceth") 
+/**  else if (req.body.action=="etceth") 
     getEtcEth(res);
-  
+**/  
 
 }
 
